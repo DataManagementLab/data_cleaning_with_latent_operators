@@ -22,7 +22,7 @@ from error_detection import predict_on_enhanced, eval_correctly, eval_numeric_rm
 from sklearn.metrics import mean_squared_error, accuracy_score, f1_score, precision_score, recall_score
 from copy import deepcopy
 
-parser = argparse.ArgumentParser(description="Generalizable Data Cleaning of Tabular Data in Latent Space"
+parser = argparse.ArgumentParser(description="Generalizable Data Cleaning of Tabular Data in Latent Space")
 parser.add_argument("--epochs", type=int, default=20)
 parser.add_argument("--learning_rate", type=float, default=0.001)
 parser.add_argument("--latent", type=int, default=240)
